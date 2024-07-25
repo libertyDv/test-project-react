@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid rgb(116, 116, 116);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(82, 81, 81, 0.568);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .fotoIc {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .cardName {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  color: rgb(179, 77, 94);
+}
+
+.card .text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(107, 39, 49);
+}
