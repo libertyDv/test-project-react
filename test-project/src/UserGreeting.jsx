@@ -7,6 +7,7 @@ function UserGreeting(props) {
     const welcomeMessage = <h2>Welcome {props.username}</h2>
     const loginPromp = <h2>Please log in</h2>
     return(props.isLoggedIn ? welcomeMessage : loginPromp)
+    
 
 }
 
