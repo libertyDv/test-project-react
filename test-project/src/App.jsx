@@ -8,6 +8,10 @@ import UserGreeting from './UserGreeting';
 import List from './List';
 import Button from './Button';
 import Button2 from './Button2';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
+import OnChangeComponent from './OnChangeComponent';
+import ColorPicker from './ColorPicker';
  
 
 
@@ -27,6 +31,10 @@ function App() {
     <List/>
     <Button/>
     <Button2/>
+    <MyComponent/>
+    <Counter/>
+    <OnChangeComponent/>
+    <ColorPicker/>
 
     <Footer/>
     </>
